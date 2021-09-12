@@ -1,5 +1,5 @@
-# CV
-Hands-on study on Computer Vision 
+# Binary classification on Breast Cancer Images 
+
 
 ![....](https://github.com/gimoonnam/CV/blob/main/non-Cancer-Images.png)
 
