@@ -2,9 +2,13 @@
 
 ## Dataset: Breast Cancer Images 
 
-<img src="https://github.com/gimoonnam/CV/blob/main/non-Cancer-Images.png" width="500" height="500" />
+<p float="left">
+  <img src="https://github.com/gimoonnam/CV/blob/main/non-Cancer-Images.png" width="400" height="400" />
+  <img src="https://github.com/gimoonnam/CV/blob/main/Cancer-Images.png" width="400" height="400" />
+</p>
 
-<img src="https://github.com/gimoonnam/CV/blob/main/Cancer-Images.png" width="500" height="500" />
+
+
 
 
 
