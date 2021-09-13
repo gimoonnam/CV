@@ -12,8 +12,7 @@
 ## Models
 
 ### Basic CNN 
-
-<img src="https://github.com/gimoonnam/CV/blob/main/graph-cnn.png" width="500" height="500" />
+![....](https://github.com/gimoonnam/CV/blob/main/graph-cnn.png)
 
 
 ### VGG19  
