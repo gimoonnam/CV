@@ -12,9 +12,9 @@
 ## Models
 
 ### Basic CNN 
-![....](https://github.com/gimoonnam/CV/blob/main/graph-cnn.png)
+![....](https://github.com/gimoonnam/CV/blob/main/basic-cnn/graph-cnn.png)
 <p align="center">
-  <img src="https://github.com/gimoonnam/CV/blob/main/basic-cnn-results.png" />
+  <img src="https://github.com/gimoonnam/CV/blob/main/basic-cnn/basic-cnn-results.png" />
 </p>
 
 
