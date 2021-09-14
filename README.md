@@ -12,11 +12,54 @@
 ## Models
 
 ### Basic CNN 
-![....](https://github.com/gimoonnam/CV/blob/main/basic-cnn/graph-cnn.png)
+```
+           OPERATION           DATA DIMENSIONS   WEIGHTS(N)   WEIGHTS(%)
+
+               Input   #####     50   50    3
+              Conv2D    \|/  -------------------       896     0.1%
+                relu   #####     50   50   32
+              Conv2D    \|/  -------------------      9248     1.4%
+                relu   #####     48   48   32
+  BatchNormalization    μ|σ  -------------------       128     0.0%
+                       #####     48   48   32
+        MaxPooling2D   Y max -------------------         0     0.0%
+                       #####     24   24   32
+             Dropout    | || -------------------         0     0.0%
+                       #####     24   24   32
+              Conv2D    \|/  -------------------     18496     2.8%
+                relu   #####     24   24   64
+              Conv2D    \|/  -------------------     36928     5.5%
+                relu   #####     22   22   64
+  BatchNormalization    μ|σ  -------------------       256     0.0%
+                       #####     22   22   64
+        MaxPooling2D   Y max -------------------         0     0.0%
+                       #####     11   11   64
+             Dropout    | || -------------------         0     0.0%
+                       #####     11   11   64
+              Conv2D    \|/  -------------------     36928     5.5%
+                relu   #####     11   11   64
+              Conv2D    \|/  -------------------     36928     5.5%
+                relu   #####      9    9   64
+  BatchNormalization    μ|σ  -------------------       256     0.0%
+                       #####      9    9   64
+        MaxPooling2D   Y max -------------------         0     0.0%
+                       #####      4    4   64
+             Dropout    | || -------------------         0     0.0%
+                       #####      4    4   64
+             Flatten   ||||| -------------------         0     0.0%
+                       #####        1024
+               Dense   XXXXX -------------------    524800    78.8%
+                relu   #####         512
+             Dropout    | || -------------------         0     0.0%
+                       #####         512
+               Dense   XXXXX -------------------      1026     0.2%
+             softmax   #####           2
+```
+<!-- ![....](https://github.com/gimoonnam/CV/blob/main/basic-cnn/graph-cnn.png)
 <p align="center">
   <img src="https://github.com/gimoonnam/CV/blob/main/basic-cnn/basic-cnn-results.png" />
 </p>
-
+ -->
 
 
 ### VGG13
