@@ -241,4 +241,20 @@ weighted avg       0.85      0.85      0.85      1540
                Dense   XXXXX -------------------      2002     0.0%
              softmax   #####           2
 ```
+<p align="center">
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/loss_acc_vgg19.png" />
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/CM_by_vgg19.png" />
+</p>
+
+```
+Classification Report
+              precision    recall  f1-score   support
+
+    Negative       0.87      0.90      0.88       786
+    Positive       0.89      0.85      0.87       754
+
+    accuracy                           0.88      1540
+   macro avg       0.88      0.88      0.88      1540
+weighted avg       0.88      0.88      0.88      1540
+```
 
