@@ -55,11 +55,6 @@
                Dense   XXXXX -------------------      1026     0.2%
              softmax   #####           2
 ```
-<!-- ![....](https://github.com/gimoonnam/CV/blob/main/basic-cnn/graph-cnn.png)
-<p align="center">
-  <img src="https://github.com/gimoonnam/CV/blob/main/basic-cnn/basic-cnn-results.png" />
-</p>
- -->
 
 <p align="center">
   <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/loss_acc_cnn.png" />
@@ -155,6 +150,20 @@ weighted avg       0.84      0.84      0.84      7348
              softmax   #####           2
 ```
 
+<p align="center">
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/loss_acc_vgg13.png" />
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/CM_by_vgg13.png" />
+</p>
 
+```
+              precision    recall  f1-score   support
+
+    Negative       0.83      0.87      0.85       786
+    Positive       0.86      0.82      0.84       754
+
+    accuracy                           0.85      1540
+   macro avg       0.85      0.85      0.85      1540
+weighted avg       0.85      0.85      0.85      1540
+```
 
 
