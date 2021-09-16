@@ -63,8 +63,7 @@
 
 <p align="center">
   <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/loss_acc_cnn.png" />
-  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/CN_by_cnn.png" />
-  
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/CM_by_cnn.png" />
 </p>
 
 
