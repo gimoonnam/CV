@@ -151,8 +151,8 @@ weighted avg       0.84      0.84      0.84      7348
 ```
 
 <p align="center">
-  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/loss_acc_vgg13.png" />
-  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/CM_by_vgg13.png" />
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/vgg13/loss_acc_vgg13.png" />
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/vgg13/CM_by_vgg13.png" />
 </p>
 
 ```
@@ -242,8 +242,8 @@ weighted avg       0.85      0.85      0.85      1540
              softmax   #####           2
 ```
 <p align="center">
-  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/loss_acc_vgg19.png" />
-  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/basic-cnn/CM_by_vgg19.png" />
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/vgg19/loss_acc_vgg19.png" />
+  <img src="https://github.com/gimoonnam/CV-BreastCancerImages/blob/main/vgg19/CM_by_vgg19.png" />
 </p>
 
 ```
