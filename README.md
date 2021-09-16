@@ -61,6 +61,19 @@
 </p>
  -->
 
+```
+              precision    recall  f1-score   support
+
+    Negative       0.84      0.85      0.84      3679
+    Positive       0.85      0.83      0.84      3669
+
+    accuracy                           0.84      7348
+   macro avg       0.84      0.84      0.84      7348
+weighted avg       0.84      0.84      0.84      7348
+
+```
+
+
 
 ### VGG13
 
